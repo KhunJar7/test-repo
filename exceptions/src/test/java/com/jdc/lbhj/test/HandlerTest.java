@@ -6,9 +6,21 @@ import com.jdc.lbhj.handler.Handler;
 
 public class HandlerTest {
 	
-	@Test
+	Handler handle = new Handler();
+	
+	//@Test
 	void testName() {
-		Handler handle = new Handler();
 		handle.useName();
 	}
+	
+	//@Test
+	void testAge() {
+		handle.useAge();
+	}
+	
+	@Test
+	void testRecursive() {
+		handle.recursive();
+	}
+	
 }
