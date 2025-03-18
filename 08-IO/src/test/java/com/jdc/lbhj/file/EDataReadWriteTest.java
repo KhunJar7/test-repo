@@ -15,7 +15,7 @@ public class EDataReadWriteTest {
 
 	@BeforeAll
 	static void init() throws IOException {
-		file = new File("test.txt");
+		file = new File("data.txt");
 		if (!file.exists()) {
 			file.createNewFile();
 		}

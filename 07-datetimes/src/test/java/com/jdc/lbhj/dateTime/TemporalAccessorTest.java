@@ -18,6 +18,7 @@ public class TemporalAccessorTest {
 		
 		// using Period which is a grandchild of TemporalAmount
 		var p = Period.ofDays(10);
+		@SuppressWarnings("unused")
 		var p1 = Period.from(Period.ofDays(10));
 		
 		ldt.plus(Period.ofDays(10));
